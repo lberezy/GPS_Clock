@@ -1,4 +1,4 @@
-#GPS Clock v0.1
+#GPS Clock v0.1 - my code is a mess edition
 This is a simple display clock that runs on the Arduino platform created out out
 of frustration with my current bedside clock losing time constantly.
 
@@ -33,3 +33,12 @@ This project makes use of the following libraries:
 * [Dallas Temperature Control Library](http://milesburton.com/Dallas_Temperature_Control_Library) - For DS18XXX series 1-Wire sensors
 * [OneWire](http://www.pjrc.com/teensy/td_libs_OneWire.html) - Requires [modification](http://forum.pjrc.com/threads/252-OneWire-library-for-Teensy-3-(DS18B20)) for use with Teensy 3.x boards
 * [Wire](http://www.pjrc.com/teensy/td_libs_Wire.html) - For I2C
+
+##Planned
+* Multiple main-screens to show different data
+	* Data/Time, Large Font Time, Temperature, GPS Location, GPS Status, etc
+* Support for 128x64 pixel graphics LCDS
+* Further working menu system
+	* Menu items actually work
+	* Allow in-device addition of custom timezones
+	* Temperature logging/stats
